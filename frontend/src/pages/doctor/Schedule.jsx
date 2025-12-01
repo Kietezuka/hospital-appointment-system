@@ -73,7 +73,7 @@ export default function Schedule(){
                     <h1 className="head__title">Manage Availability</h1>
                 </header>
                 <section className="schedule__week">
-                    <div className="card">
+                    <div className="schedule__head card">
                         <h2 className="schedule__week-title">Week of {week[0]?.monthDay} – {week[week.length-1]?.monthDay}</h2>
                         <div className="schedule__actions">
                             <button className="toggle__btn btn--ghost" onClick={goToPrevWeek}><span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#999999"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg></span> Prev week</button>

@@ -22,6 +22,11 @@
   margin-bottom: var(--px-base);
 }
 
+.schedule__head, .schedule__body{
+  display: flex;
+  flex-direction: column;
+  gap: var(--px-base);
+}
 .schedule-day__header{
   display: flex;
   flex-direction: row;
